@@ -1,7 +1,33 @@
 :root{
-  --mainDark: #2a2a2a;
+  --mainDark: #373737;
+  --backgroundDark: #2a2a2a;
+  --borderMain: #52525b;
+  
 }
 body {
       background-image: url('../Images/background.svg');
-      background-color:var(--mainDark);
+      background-color:var(--backgroundDark);
+      background-size: 17%;
+      font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+main{
+  color:white;
+  margin: auto;
+  margin-top: 6vh;
+  width: 20vw;
+  height: 60vh;
+}
+.main-top{
+  max-width: 70%;
+  margin: auto;
+}
+.logo{
+  margin-left:9px;
+}
+.form-container{
+  background-color: var(--mainDark);
+  border: 1px solid var(--borderMain);
+  border-radius: 8px;
+  margin-top: 6vh;
+  padding: 20px;
 }
