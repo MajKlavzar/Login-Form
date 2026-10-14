@@ -198,3 +198,16 @@ a {
   color: var(--textColor);
   font-size: 0.9rem;
 }
+
+#signUp {
+  color: var(--textColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#signUp:hover{
+  text-decoration: underline;
+}
+
