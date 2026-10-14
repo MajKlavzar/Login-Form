@@ -14,21 +14,31 @@
             <img class="logo" src="Images/logo.png" width="60" height="60">
             <img class="logo" src="Images/logo-text-windycom-white.svg" height="45">
         </div>
-        <div class="form-container">
+        <section class="form-container">
             <form>
-                <div class="mail">
+                <div class="inputField">
                     <label for="email">Email</label>
                     <br>
                     <input type="email" id="email" name="email" required>
                 </div>
-                <div class="Password">
+                <div class="inputField">
                     <label for="password">Password</label>
                     <br>
                     <input type="password" id="password" name="password" required>
+                    <br>
+                    <a href="#" id="right">Forgot password?</a>
                 </div>
-                <button type="submit">Sign in</button>
+                <br><br>
+                <button type="submit" id="submit">Sign in</button>
             </form>
-        </div>
+            
+            <div class="sign-ins">
+                <a href="#"><div class="signIn" id="appleSignIn"><img src>Sign in with Apple</div></a>
+                <a href="#"><div class="signIn" id="googleSignIn">Sign in with Google</div></a>
+                <a href="#"><div class="signIn" id="facebookSignIn">Sign in with Facebook</div></a>
+            </div>
+            <a href="#"><div class="signUp" id="signUp">Don't have an account? Sign up</div></a>
+        </section>
     </main>
     
 </body>
