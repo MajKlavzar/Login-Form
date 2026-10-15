@@ -6,8 +6,9 @@
     <title>Sign In – Account – Windy.com</title>
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="icon" type="image/x-icon" href="Images/favicon.png">
-
+    <script src="Scripts/submit.js" defer></script>
 </head>
+
 <body>
     <main>
         <div class="main-top">
@@ -15,11 +16,11 @@
             <img class="logo" src="Images/logo-text-windycom-white.svg" height="45">
         </div>
         <section class="form-container">
-            <form>
+            <form novalidate aria-live="polite">
                 <div class="inputField">
                     <label for="email">Email</label>
                     <br>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required autofocus>
                 </div>
                 <div class="inputField">
                     <label for="password">Password</label>
@@ -43,7 +44,7 @@
                 <a href="#"><div class="signIn" id="facebookSignIn"><img class="sign-in-icon" src="Images/facebook-white.svg" alt="" aria-hidden="true">Sign in with Facebook</div></a>
             </div>
 
-            <a href="#"><div id="signUp">Don't have an account? Sign up.</div></a>
+            <a href="#" id="signUp">Don't have an account? Sign up.</a>
         </section>
         <footer>
             <a href="#" class="footer-link">Privacy policy</a>
@@ -52,6 +53,5 @@
             <button id="settings-button"><img src="Images/cog.svg" alt="Settings"></button>
         </footer>
     </main>
-    
 </body>
 </html>
