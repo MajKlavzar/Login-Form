@@ -31,7 +31,7 @@ body {
 }
 
 main {
-  width: min(22rem, 90vw);
+  width: min(24rem, 90vw);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
