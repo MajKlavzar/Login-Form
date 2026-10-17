@@ -69,14 +69,6 @@ form {
   gap: 1rem;
 }
 
-form.show-error::after {
-  content: "Wrong email or password";
-  color: #ffb4ab;
-  font-size: 0.85rem;
-  text-align: center;
-  margin-top: -0.5rem;
-}
-
 .inputField {
   display: flex;
   flex-direction: column;
