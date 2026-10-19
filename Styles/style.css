@@ -146,7 +146,7 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid gray;
+  border: 1px solid var(--borderMain);
   border-radius: 5px;
   font-weight: 600;
 }
